@@ -1,0 +1,97 @@
+Program NO 1:
+import java.util.Scanner;
+
+public class Celsius {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        System.out.print("Enter temperature in Celsius: ");
+
+        double celsius = scanner.nextDouble();
+        double fahrenheit = (celsius * 9/5) + 32;
+
+        System.out.println(celsius + " degrees Celsius is equal to " + fahrenheit + " degrees Fahrenheit");
+    }
+}
+
+ Program NO 2:
+
+
+import java.util.Scanner;
+
+public class Circle {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        System.out.print("Enter the radius of the circle: ");
+		
+        double radius = scanner.nextDouble();
+        double area = Math.PI * Math.pow(radius, 2);
+		
+        System.out.println("Radius: " + radius);
+        System.out.println("Area: " + area);
+    }
+}
+
+
+Program NO:3
+
+import java.util.Scanner;
+
+public class Month{
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+
+        System.out.print("Enter the number of years: ");
+
+        float years = scanner.nextFloat();
+
+        int MONTHS_IN_YEAR = 12;
+        int DAYS_IN_YEAR = 365;
+
+        float months = years * MONTHS_IN_YEAR;
+        float days = years * DAYS_IN_YEAR;
+
+        System.out.println(months + " months");
+        System.out.println(days + " days");
+    }
+}
+
+
+
+Program NO:4
+
+import java.util.Scanner;
+
+public class Table {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+
+        System.out.print("Enter a number: ");
+
+        int number = scanner.nextInt();
+        
+        System.out.println(number + " * 1 = " + (number * 1));
+        System.out.println(number + " * 2 = " + (number * 2));
+        System.out.println(number + " * 3 = " + (number * 3));
+        System.out.println(number + " * 4 = " + (number * 4));
+        System.out.println(number + " * 5 = " + (number * 5));
+        System.out.println(number + " * 6 = " + (number * 6));
+        System.out.println(number + " * 7 = " + (number * 7));
+        System.out.println(number + " * 8 = " + (number * 8));
+        System.out.println(number + " * 9 = " + (number * 9));
+        System.out.println(number + " * 10 = " + (number * 10));
+    }
+}
+
+Program NO:5
+
+public class Variable {
+    public static void main(String[] args) {
+        int age = 21;
+        int Students = 150;
+        double temperature = 98.6;
+		
+        System.out.println("Age: " + age);
+        System.out.println("Number of students: " + Students);
+        System.out.println("Temperature: " + temperature);
+    }
+}
